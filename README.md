@@ -1,2 +1,6 @@
-# Suilven
-SUILVEN BOAT MANAGEMENT 
+# Suilven Boat Manager — development 0.2
+Separate browser prototype for Suilven, Nordhavn N43. Static HTML/CSS/JS. No login, remote database, analytics or external dependencies. Never commit private manuals, identifying vessel exports, backup files or credentials.
+
+Enable GitHub Pages from main / root to test over HTTPS. Open the resulting URL in Safari. Service worker caches the application shell after a successful first online visit. Offline behavior, keyboard input and persistence must be verified on the target iPad before operational use. Website storage can be cleared or evicted: export backups regularly. Safari and a Home Screen installation may use different local storage; test and restore backups as needed. Hosting supplies the application code; it does not receive entered records. Do not use browser development records as the sole copy.
+
+Implemented: job capture/status, one verified owner interval (main oil/filter), counted oil-filter stock/location/reorder threshold, service deduction and latest-first undo, combined main tank consumption in litres and passage averages, dated starter departure checklists, JSON backup/restore. Manual import, full inventory/history, supplier crossreferences, generator allocation, equipment schedules and reports remain pending. Seed main oil/filter baseline: 2979 h on 27 February 2026; next at 3229 h. Other schedules are not inferred.
